@@ -115,6 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BasicFunction.c" />
+    <ClCompile Include="BiSortTree.c" />
+    <ClCompile Include="BiSortTree_main.c" />
+    <ClCompile Include="BiTree.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicFunctions.h" />
+    <ClInclude Include="BiSortTree.h" />
+    <ClInclude Include="BiTree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
